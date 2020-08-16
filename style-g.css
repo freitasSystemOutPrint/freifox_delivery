@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Open Sans",sans-serif;
+}
+
+body{
+    background: #34495e;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter{
+    background:linear-gradient(125deg,#f39c12,#f8a5c2);
+    width: 500px;
+    padding: 90px;
+    text-align: center;
+    box-shadow: 0 0 20px #00000060;
+}
+
+.newsletter h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 48px;
+    line-height: 40px;
+}
+
+.newsletter p{
+    color:#fff;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.txtb input {
+    width: 115%;
+    height: 40px;
+    border-radius: 50px;
+    border: 0;
+    background: #34495e ;
+    padding: 0 30px;
+    outline: none;
+    font-size: 15px;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+
+input[type=submit]{
+    background-color:rgba(238, 23, 23, 0.493);
+    border:none;
+    font-size:12pt;
+    outline:none;
+    cursor:pointer;
+    text-align: center;
+    padding-right: 40px;
+}
+
+img{
+    position:absolute;
+    right:800px;
+    top: 200px;
+    width: 60px;
+    height:40px;
+}
+
+::-webkit-input-placeholder {
+    color: orange;
+}
+
+.imobSelect select {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+background: transparent;
+width: 233px;
+color: #474747;
+padding: 8px 5px 5px 5px;
+font-size: 12px;
+line-height: 1;
+border: 0;
+border-radius: 0;
+height: 34px;
+-webkit-appearance: none;}
+
+.imobSelect option {
+    height: 30px;
+    border: 1px solid #cbcbcb;
+    padding-left: 17px;
+    padding-top: 12px;}
+
+.imobSelect {
+    width: 207px;
+    height: 34px;
+    overflow: hidden;
+    background: url(../images/arrow.jpg) no-repeat right #f0f0f0;
+    border-radius: 3px;}
